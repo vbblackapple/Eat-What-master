@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "add14d44fd9ab15640516f7a2df31dd7"
+build_time: [520057514, 670233000]
+inputs:
+  "/Users/allen/Downloads/Eat-What-master/Eat What/resultController.swift": [519967676, 0]
+  "/Users/allen/Downloads/Eat-What-master/Eat What/TableViewCell.swift": [519967676, 0]
+  "/Users/allen/Downloads/Eat-What-master/Eat What/ViewController.swift": [519967676, 0]
+  "/Users/allen/Downloads/Eat-What-master/Eat What/AppDelegate.swift": [519967676, 0]

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backk.png" translatesAutoresizingMaskIntoConstraints="NO" id="jxB-HJ-fqj">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="gG1-4Z-Ld9"/>
+                                    <constraint firstAttribute="height" constant="600" id="nvo-ez-rNo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="食在不知道" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nac-pg-CbT">
+                                <rect key="frame" x="130" y="248" width="341" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="341" id="yyV-bD-LWH"/>
+                                    <constraint firstAttribute="height" constant="103" id="zEB-wY-hc6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="68"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nac-pg-CbT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="195-lV-Mwh"/>
+                            <constraint firstItem="nac-pg-CbT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2xN-Np-4Xq"/>
+                            <constraint firstItem="nac-pg-CbT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="G9I-oR-DbJ"/>
+                            <constraint firstItem="jxB-HJ-fqj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ODa-56-ssZ"/>
+                            <constraint firstItem="jxB-HJ-fqj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="jt5-cr-SMX"/>
+                            <constraint firstItem="nac-pg-CbT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rup-fY-v3r"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backk.png" width="750" height="750"/>
+    </resources>
+</document>
